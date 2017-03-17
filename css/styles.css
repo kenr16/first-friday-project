@@ -18,9 +18,9 @@ body {
 
 .topbar {
   width: 100%;
-  background-color: #1188ff;
+  background-color: #b3e0ff;
   border-style: solid;
-  border-bottom: thick solid #0000ff;
+  border-bottom: thick solid #66c2ff;
   border-bottom-width: 25px;
   height: 170px;
   position: fixed;
@@ -28,22 +28,22 @@ body {
 }
 
 .topbar h1 {
-  color: white;
+  color: #33adff;
   font-family: fantasy;
   font-size: 55px;
   padding-top: 20px;
 }
 
 .topbar img {
-  width: 150px;
+  height: 140px;
   float: left;
   padding-left: 50px;
   padding-top: 10px;
-  margin-right: 75px;
+  margin-right: 50px;
 }
 
 .topbar p {
-  color: blue;
+  color: #66c2ff;
   font-family: fantasy;
   font-size: 25px;
   padding-top: 0px;
@@ -53,6 +53,7 @@ body {
 .sidebar {
   width: 250px;
   overflow-x: hidden;
+  margin-top: 150px;
 }
 
 .wikiclone {
@@ -68,6 +69,12 @@ body {
 
 .petstore {
   background-image: url(../img/doglogo.jpg);
+  background-size: 450px;
+  text-indent: 50px;
+}
+
+.cupcake {
+  background-image: url(../img/cupcakelogo.jpg);
   background-size: 450px;
   text-indent: 50px;
 }
@@ -91,13 +98,32 @@ body {
 
 .about-me {
   width: 100%;
-  margin-top: 50px;
   text-indent: 50px;
+  margin-top: 200px;
 }
 
 .keanu {
   width: 250px;
   border-radius: 30px;
+  float: left;
+  margin-right: 25px;
+}
+
+.skills {
+  width: 100%;
+  text-indent: 50px;
+  margin-top: 30px;
+}
+
+.code {
+  width: 280px;
+  border-radius: 30px;
+  float: right;
+  margin-right: 25px;
+}
+
+.code img {
+  width: 250px;
   float: left;
   margin-right: 25px;
 }
