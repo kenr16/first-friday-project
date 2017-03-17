@@ -57,19 +57,19 @@ body {
 }
 
 .wikiclone {
-  background-image: url(../img/wikilogo.png);
-  background-size: 300px 300px;
+  background-image: url(../img/wikilogo.jpg);
+  background-size: 495px;
 }
 
 .hawaiiplace {
-  background-image: url(../img/hawaiilogo.jpg);
-  background-size: 770px;
+  background-image: url(../img/tree.jpg);
+  background-size: 300px;
   text-indent: 50px;
 }
 
 .petstore {
   background-image: url(../img/doglogo.jpg);
-  background-size: 450px;
+  background-size: 475px;
   text-indent: 50px;
 }
 
@@ -79,21 +79,36 @@ body {
   text-indent: 50px;
 }
 
+.resort {
+  background-image: url(../img/pirate.jpg);
+  background-size: 350px;
+  text-indent: 50px;
+}
+
 .well-top {
   margin-top: 50px;
   border-style: solid;
-  border-width: 5px;
-  border-radius: 25px;
+  border-width: 10px;
+  border-radius: 80px;
+  background-color: #ffdf80;
+  border-color: #ffbf00;
 }
 
 .well-top h4 {
+  padding-left: 20px;
   font-size: 18px;
   color: #000000;
 }
 
 .well-top p {
-  font-size: 13px;
+  padding-left: 20px;
+  font-size: 16px;
   color: #000000;
+}
+
+.well-top img {
+  padding-left: 30px;
+  height: 100px;
 }
 
 .about-me {
