@@ -140,3 +140,20 @@ body {
   font-weight: bolder;
 
 }
+
+.dockworker {
+  width: 100%;
+  text-indent: 50px;
+  margin-top: 50px;
+}
+
+.yarddog {
+  width: 280px;
+  border-radius: 30px;
+  float: left;
+  margin-right: 25px;
+}
+
+.yarddog img{
+  width: 250px;
+}
