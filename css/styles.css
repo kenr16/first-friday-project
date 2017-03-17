@@ -127,3 +127,16 @@ body {
   float: left;
   margin-right: 25px;
 }
+
+.descripttext {
+  font-size: 18;
+  font-family: serif;
+
+}
+
+.obligatory {
+  color: #00ee00;
+  font-size: 20;
+  font-weight: bolder;
+
+}
